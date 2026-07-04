@@ -323,7 +323,8 @@ function renderGroupTable(liveTeams, showStatus = false) {
     const tableDiv = document.createElement('div');
     tableDiv.className = 't-group-standings';
     
-    let tableHtml = `<div class="t-group-header" data-i18n="tabela_classificacao">CLASSIFICAÇÃO</div>`;
+    const classificacao = TRANSLATIONS[state.lang].tabela_classificacao || 'CLASSIFICAÇÃO';
+    let tableHtml = `<div class="t-group-header" data-i18n="tabela_classificacao">${classificacao}</div>`;
     
     sortedTeams.forEach((team, tIdx) => {
       const pos = tIdx + 1;
@@ -393,7 +394,7 @@ function animateMatch(index) {
   const header = document.createElement('div');
   header.className = 't-match-header';
   header.innerHTML = `
-    <div class="t-match-stage" data-i18n="fase_de_grupos">FASE DE GRUPOS</div>
+    <div class="t-match-stage" data-i18n="fase_de_grupos">${TRANSLATIONS[state.lang].fase_de_grupos || 'FASE DE GRUPOS'}</div>
     <div class="t-match-opponent-info">
       <span class="t-group-f7">${F7_LOGO_SVG}</span>
       <span class="t-match-vs">vs</span>

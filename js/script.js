@@ -1127,11 +1127,20 @@ window.translateUI = function(lang) {
   if (typeof updateFormation === 'function') {
     updateFormation();
   }
+  if (typeof renderRoster === 'function') {
+    renderRoster();
+  }
+  if (typeof renderSquadList === 'function') {
+    renderSquadList();
+  }
 };
 
 function initLanguage() {
   // Detect language
-  let userLang = (navigator.language || navigator.userLanguage).split('-')[0].toUpperCase();
+  let userLang = localStorage.getItem('userLang');
+  if (!userLang) {
+    userLang = (navigator.language || navigator.userLanguage).split('-')[0].toUpperCase();
+  }
   if (!window.i18nTranslations || !window.i18nTranslations[userLang]) {
     userLang = 'EN';
   }
@@ -1172,6 +1181,7 @@ if (langBtn && langDropdown) {
       e.target.classList.add('active');
       const selectedLang = e.target.textContent.trim();
       window.currentLang = selectedLang;
+      localStorage.setItem('userLang', selectedLang);
       window.translateUI(selectedLang);
       langDropdown.style.display = 'none';
     });
