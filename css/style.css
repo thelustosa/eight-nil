@@ -2024,7 +2024,7 @@ body.simulation-active .panel-left {
   font-size: 11px;
   color: var(--color-text-grey);
   border-top: 1px dashed rgba(61, 69, 77, 0.5);
-  margin-top: 10px;
+  margin-top: auto;
   font-family: var(--font-primary);
   line-height: 1.5;
 }
@@ -2095,9 +2095,9 @@ body.simulation-active .panel-left {
   background-color: var(--color-white);
   border: none;
   color: var(--color-bg-black);
-  font-family: var(--font-tertiary);
+  font-family: var(--font-secondary);
   /* Archivo Black */
-  font-size: 14px;
+  font-size: 20px;
   letter-spacing: 0.5px;
   cursor: pointer;
   text-transform: uppercase;

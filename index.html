@@ -49,9 +49,12 @@
       <div class="lang-selector-wrapper" style="margin-left: auto; position: relative;">
         <button class="header-action-btn" id="lang-btn">
           <span data-i18n="btn_idioma">IDIOMA</span>
-          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 4px; vertical-align: -1px;"><path d="M6 9l6 6 6-6"/></svg>
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
+            stroke-linecap="round" stroke-linejoin="round" style="margin-left: 4px; vertical-align: -1px;">
+            <path d="M6 9l6 6 6-6" />
+          </svg>
         </button>
-        
+
         <div class="lang-dropdown" id="lang-dropdown" style="display: none;">
           <div class="lang-dropdown-header" data-i18n="modal_idioma">IDIOMA</div>
           <div class="lang-divider"></div>
@@ -70,7 +73,8 @@
 
   <div id="start-screen" class="start-screen-container">
     <div class="start-logo">
-      <svg class="logo-svg" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1545 1165" width="200" height="150">
+      <svg class="logo-svg" version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1545 1165" width="200"
+        height="150">
         <path fill="#fff"
           d="m157 561l79-77 63-177 66-98 90-76 148-69 119-24 146 1 113 28 130 81 89 92 88 155 26 102 95 76 2 214 105 71-28 180-117 68-71 19-1081 3-163-111-35-161 129-97-26-44z" />
         <path fill="#2b8fe8"
@@ -85,12 +89,14 @@
           d="m1140.6 633.2c-1.2 40.7-3.6 148.9-4.6 206.8-0.5 33.3-1.2 64.4-1.4 69.2l-0.5 8.8h67.5 67.4v-152-152h-63.9-63.9z" />
       </svg>
     </div>
-    
+
     <h1 class="start-title" data-i18n="start_title">CAN YOU GO <span style="color: #2b8fe8;">8-0</span>?</h1>
-    
+
     <p class="start-subtitle" data-i18n="start_subtitle">
-      Sorteie uma seleção e uma copa, escale um jogador para cada posição e descubra se o seu time consegue ser campeão invicto.
-    </p>    <div class="start-play-wrapper" style="width: 100%; max-width: 500px; margin: 0 auto 3rem auto;">
+      Sorteie uma seleção e uma copa, escale um jogador para cada posição e descubra se o seu time consegue ser campeão
+      invicto.
+    </p>
+    <div class="start-play-wrapper" style="width: 100%; max-width: 500px; margin: 0 auto 3rem auto;">
       <button id="btn-start-game" class="roll-button" data-i18n="start_play_btn">
         <span style="vertical-align: middle;" data-i18n="start_play_btn">JOGAR</span>
         <svg class="chuteira-icon" viewBox="0 0 360 360" width="100" height="100" xmlns="http://www.w3.org/2000/svg"
@@ -110,11 +116,18 @@
     </div>
     <div class="start-how-to-wrapper">
       <button id="btn-how-to" class="how-to-toggle">
-        <span data-i18n="how_to_play">COMO JOGAR</span>
-        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="how-to-icon"><path d="M6 9l6 6 6-6"/></svg>
+        <span data-i18n="how_to_play">COMO JOGAR ?</span>
+        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="3"
+          stroke-linecap="round" stroke-linejoin="round" class="how-to-icon">
+          <path d="M6 9l6 6 6-6" />
+        </svg>
       </button>
       <div id="how-to-content" class="how-to-content" style="display: none;" data-i18n="how_to_desc">
-        <strong>1. Escolha a formação:</strong> Selecione a tática que prefere (ex: 4-4-2, 4-3-3).<br><strong>2. Sorteie o país e a copa:</strong> Role a roleta para descobrir qual seleção você terá que usar como base, de qual copa específica.<br><strong>3. Escale o time:</strong> Selecione jogadores daquela equipe e monte o seu "Dream Team".<br><strong>4. Simule o campeonato:</strong> Quando terminar, simule os jogos para ver se você consegue ganhar 8 partidas seguidas sem perder!
+        <strong>1. Escolha a formação:</strong> Selecione a tática que prefere (ex: 4-4-2, 4-3-3).<br><strong>2. Sorteie
+          o país e a copa:</strong> Role a roleta para descobrir qual seleção você terá que usar como base, de qual copa
+        específica.<br><strong>3. Escale o time:</strong> Selecione jogadores daquela equipe e monte o seu "Dream
+        Team".<br><strong>4. Simule o campeonato:</strong> Quando terminar, simule os jogos para ver se você consegue
+        ganhar 8 partidas seguidas sem perder!
       </div>
     </div>
   </div>
@@ -199,7 +212,8 @@
           </div>
         </div>
 
-        <div class="reroll-header"><span data-i18n="reroll_text">NÃO CURTIU? RE-SORTEIE</span> &middot; <span id="reroll-count">6</span> <span data-i18n="restantes">RESTANTES</span></div>
+        <div class="reroll-header"><span data-i18n="reroll_text">NÃO CURTIU? RE-SORTEIE</span> &middot; <span
+            id="reroll-count">6</span> <span data-i18n="restantes">RESTANTES</span></div>
         <div class="reroll-buttons">
           <button class="outline-btn" id="btn-reroll-team">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"
@@ -330,8 +344,8 @@
       <div id="pre-roll-right">
         <div class="controls-card-lendas">
           <div class="box-score-header" style="margin-bottom: 12px; display: flex; align-items: center;">
-            <span class="box-score-title" id="right-panel-title"
-              style="letter-spacing: 2.42px; color: #7a7363;" data-i18n="lendas">LENDAS</span>
+            <span class="box-score-title" id="right-panel-title" style="letter-spacing: 2.42px; color: #7a7363;"
+              data-i18n="lendas">LENDAS</span>
           </div>
 
           <div class="roster-list" id="roster-list">
@@ -364,7 +378,8 @@
         <div class="box-score-container controls-card">
           <div class="box-score-header-flex">
             <div class="box-score-info">
-              <div class="box-score-title"><span data-i18n="sua_escalacao">SUA ESCALAÇÃO</span> &middot; <span id="draft-count">0/11</span></div>
+              <div class="box-score-title"><span data-i18n="sua_escalacao">SUA ESCALAÇÃO</span> &middot; <span
+                  id="draft-count">0/11</span></div>
               <div class="box-score-stats" style="display: flex; align-items: center; gap: 6px; white-space: nowrap;">
                 <span class="stat-defense-val" id="ataque-stat" style="font-size: 22px; margin-left: 2px;">—</span>
                 <span class="stat-text" data-i18n="ataque">ATAQUE</span>
@@ -402,9 +417,12 @@
       </div>
       <div style="display: flex; flex-direction: column; width: max-content; margin-left: auto;">
         <div class="simulation-mode-buttons" style="display: flex; gap: 8px; margin-bottom: 16px;">
-          <button class="outline-btn sim-mode-btn" id="btn-mode-jogo-jogo" style="flex: 1;" data-i18n="jogo_a_jogo">JOGO A JOGO</button>
-          <button class="outline-btn sim-mode-btn active" id="btn-mode-manual" style="flex: 1;" data-i18n="automatico">AUTOMÁTICO</button>
-          <button class="outline-btn sim-mode-btn" id="btn-mode-speed" style="flex: 1;" data-i18n="velocidade_1x">VELOC. 1X</button>
+          <button class="outline-btn sim-mode-btn" id="btn-mode-jogo-jogo" style="flex: 1;" data-i18n="jogo_a_jogo">JOGO
+            A JOGO</button>
+          <button class="outline-btn sim-mode-btn active" id="btn-mode-manual" style="flex: 1;"
+            data-i18n="automatico">AUTOMÁTICO</button>
+          <button class="outline-btn sim-mode-btn" id="btn-mode-speed" style="flex: 1;" data-i18n="velocidade_1x">VELOC.
+            1X</button>
         </div>
         <div id="group-table-container"></div>
       </div>
@@ -412,7 +430,8 @@
   </div>
 
   <footer class="footer">
-    <p data-i18n="footer_text">8-0 é um projeto independente e não possui qualquer vínculo, endosso ou patrocínio da Federação Internacional de Futebol Associado (FIFA).</p>
+    <p data-i18n="footer_text">8-0 é um projeto independente e não possui qualquer vínculo, endosso ou patrocínio da
+      Federação Internacional de Futebol Associado (FIFA).</p>
   </footer>
 
   <script src="js/data.js?v=9"></script>
