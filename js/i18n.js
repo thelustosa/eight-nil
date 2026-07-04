@@ -1,7 +1,7 @@
 const translations = {
   PT: {
     "title_monte": "MONTE",
-    "subtitle_time": " O SEU TIME PERFEITO",
+    "subtitle_time": " O SEU TIME DOS SONHOS",
     "btn_idioma": "IDIOMA",
     "modal_idioma": "IDIOMA",
     "formacao": "FORMAÇÃO",
@@ -79,7 +79,7 @@ const translations = {
   },
   EN: {
     "title_monte": "BUILD",
-    "subtitle_time": " YOUR PERFECT TEAM",
+    "subtitle_time": " YOUR DREAM TEAM",
     "btn_idioma": "LANGUAGE",
     "modal_idioma": "LANGUAGE",
     "formacao": "FORMATION",
@@ -237,7 +237,7 @@ const translations = {
   },
   ES: {
     "title_monte": "ARMA",
-    "subtitle_time": " TU EQUIPO PERFECTO",
+    "subtitle_time": " TU EQUIPO DE ENSUEÑO",
     "btn_idioma": "IDIOMA",
     "modal_idioma": "IDIOMA",
     "formacao": "FORMACIÓN",
@@ -395,7 +395,7 @@ const translations = {
   },
   FR: {
     "title_monte": "CRÉEZ",
-    "subtitle_time": " VOTRE ÉQUIPE IDÉALE",
+    "subtitle_time": " VOTRE ÉQUIPE DE RÊVE",
     "btn_idioma": "LANGUE",
     "modal_idioma": "LANGUE",
     "formacao": "FORMATION",
@@ -553,7 +553,7 @@ const translations = {
   },
   PL: {
     "title_monte": "ZBUDUJ",
-    "subtitle_time": " SWÓJ IDEALNY ZESPÓŁ",
+    "subtitle_time": " SWÓJ ZESPÓŁ MARZEŃ",
     "btn_idioma": "JĘZYK",
     "modal_idioma": "JĘZYK",
     "formacao": "FORMACJA",
@@ -711,7 +711,7 @@ const translations = {
   },
   IT: {
     "title_monte": "CREA",
-    "subtitle_time": " LA TUA SQUADRA PERFETTA",
+    "subtitle_time": " LA TUA SQUADRA DEI SOGNI",
     "btn_idioma": "LINGUA",
     "modal_idioma": "LINGUA",
     "formacao": "MODULO",
