@@ -154,7 +154,7 @@ const translations = {
     "next_game_new": "NEW GAME",
     "next_game_next_phase": "NEXT MATCH",
     "next_game_eliminated": "NEW GAME"
-,
+    ,
     "Centroavante": "Centre Forward",
     "Goleiro": "Goalkeeper",
     "Lateral-direito": "Right Back",
@@ -312,7 +312,7 @@ const translations = {
     "next_game_new": "NUEVO JUEGO",
     "next_game_next_phase": "PRÓXIMO PARTIDO",
     "next_game_eliminated": "NUEVO JUEGO"
-,
+    ,
     "Centroavante": "Delantero Centro",
     "Goleiro": "Portero",
     "Lateral-direito": "Lateral Derecho",
@@ -470,7 +470,7 @@ const translations = {
     "next_game_new": "NOUVEAU JEU",
     "next_game_next_phase": "PROCHAIN MATCH",
     "next_game_eliminated": "NOUVEAU JEU"
-,
+    ,
     "Centroavante": "Avant-centre",
     "Goleiro": "Gardien",
     "Lateral-direito": "Arrière Droit",
@@ -628,7 +628,7 @@ const translations = {
     "next_game_new": "NOWA GRA",
     "next_game_next_phase": "NASTĘPNY MECZ",
     "next_game_eliminated": "NOWA GRA"
-,
+    ,
     "Centroavante": "Środkowy Napastnik",
     "Goleiro": "Bramkarz",
     "Lateral-direito": "Prawy Obrońca",
@@ -786,7 +786,7 @@ const translations = {
     "next_game_new": "NUOVO GIOCO",
     "next_game_next_phase": "PROSSIMA PARTITA",
     "next_game_eliminated": "NUOVO GIOCO"
-,
+    ,
     "Centroavante": "Centravanti",
     "Goleiro": "Portiere",
     "Lateral-direito": "Terzino Destro",
@@ -869,7 +869,7 @@ const translations = {
   }
 };
 
-window.t = function(text) {
+window.t = function (text) {
   if (!text) return text;
   const lang = (window.currentLang || 'PT').toUpperCase();
   if (lang === 'PT') return text;
@@ -885,12 +885,54 @@ window.currentLang = 'PT'; // Default fallback
 
 // Appending missing simulation translations
 const extraTranslations = {
-  'PT': { sua_selecao: 'SUA SELEÇÃO', classificado: 'CLASSIFICADO', eliminado: 'ELIMINADO', avancou_de_fase: 'AVANÇOU DE FASE', simulando: 'Simulando...', gol_scored: 'GOL', gols_scored: 'GOLS', sofreu_goals: 'SOFREU' },
-  'EN': { sua_selecao: 'YOUR TEAM', classificado: 'QUALIFIED', eliminado: 'ELIMINATED', avancou_de_fase: 'ADVANCED', simulando: 'Simulating...', gol_scored: 'GOAL', gols_scored: 'GOALS', sofreu_goals: 'CONCEDED' },
-  'ES': { sua_selecao: 'TU SELECCIÓN', classificado: 'CLASIFICADO', eliminado: 'ELIMINADO', avancou_de_fase: 'AVANZÓ', simulando: 'Simulando...', gol_scored: 'GOL', gols_scored: 'GOLES', sofreu_goals: 'EN CONTRA' },
-  'FR': { sua_selecao: 'VOTRE ÉQUIPE', classificado: 'QUALIFIÉ', eliminado: 'ÉLIMINÉ', avancou_de_fase: 'A AVANCÉ', simulando: 'Simulation en cours...', gol_scored: 'BUT', gols_scored: 'BUTS', sofreu_goals: 'CONCÉDÉ' },
-  'PL': { sua_selecao: 'TWOJA DRUŻYNA', classificado: 'ZAKWALIFIKOWANY', eliminado: 'WYELIMINOWANY', avancou_de_fase: 'AWANSOWAŁ', simulando: 'Symulacja...', gol_scored: 'GOL', gols_scored: 'GOLE', sofreu_goals: 'STRACONE' },
-  'IT': { sua_selecao: 'LA TUA SQUADRA', classificado: 'QUALIFICATO', eliminado: 'ELIMINATO', avancou_de_fase: 'AVANZATO', simulando: 'Simulazione in corso...', gol_scored: 'GOL', gols_scored: 'GOL', sofreu_goals: 'SUBITO' }
+  'PT': {
+    sua_selecao: 'SUA SELEÇÃO', classificado: 'CLASSIFICADO', eliminado: 'ELIMINADO', avancou_de_fase: 'AVANÇOU DE FASE', simulando: 'Simulando...', gol_scored: 'GOL', gols_scored: 'GOLS', sofreu_goals: 'SOFREU',
+    start_title: 'VOCÊ PODE FICAR <span style="color: #2b8fe8;">8-0</span>?',
+    start_subtitle: 'Sorteie uma seleção e uma copa, escale um jogador para cada posição e descubra se o seu time consegue ser campeão invicto.',
+    start_play_btn: 'JOGAR',
+    how_to_play: 'COMO JOGAR',
+    how_to_desc: '<div class="how-to-columns"><div class="how-to-col"><div class="how-to-sec"><h4>Como Jogar</h4><p>Sorteie para revelar uma seleção e uma Copa do Mundo. Escolha um jogador daquele elenco e posicione-o em uma vaga aberta elegível na sua escalação.</p><p>Cada jogador só pode ser usado uma única vez. Se um jogador não puder entrar em nenhuma posição aberta, ele ficará indisponível.</p></div><div class="how-to-sec"><h4>Re-sorteios</h4><p>Você recebe re-sorteios limitados durante uma rodada. Use-os quando a seleção atual tiver jogadores que não encaixem no seu esquema tático ou posições que ainda faltam preencher.</p></div></div><div class="how-to-col"><div class="how-to-sec"><h4>O que Otimizar</h4><p>Não busque apenas os melhores jogadores individuais. Times vencedores precisam de consistência defensiva, meio-campo criativo, pontas velozes e um ataque dinâmico que funcione de forma equilibrada.</p></div><div class="how-to-sec"><h4>Vitória</h4><p>Depois que todas as posições da formação forem preenchidas, o jogo simula a campanha do seu time no torneio.</p><p>Seu objetivo é vencer 8 partidas seguidas e ser o grande campeão invicto!</p></div></div></div>'
+  },
+  'EN': {
+    sua_selecao: 'YOUR TEAM', classificado: 'QUALIFIED', eliminado: 'ELIMINATED', avancou_de_fase: 'ADVANCED', simulando: 'Simulating...', gol_scored: 'GOAL', gols_scored: 'GOALS', sofreu_goals: 'CONCEDED',
+    start_title: 'CAN YOU GO <span style="color: #2b8fe8;">8-0</span>?',
+    start_subtitle: 'Spin a team and a cup, draft a player into each position, and find out if your all-time lineup can win 8-0.',
+    start_play_btn: 'PLAY',
+    how_to_play: 'HOW TO PLAY',
+    how_to_desc: '<div class="how-to-columns"><div class="how-to-col"><div class="how-to-sec"><h4>How To Play</h4><p>Spin to reveal a country and a World Cup. Pick a player from that squad and place him into an open eligible position on your lineup.</p><p>Each player can only be used once. If a player cannot fit any open position, they will be unavailable.</p></div><div class="how-to-sec"><h4>Rerolls</h4><p>You get limited rerolls during a round. Use them when the current squad does not have players that fit your tactical scheme or remaining open positions.</p></div></div><div class="how-to-col"><div class="how-to-sec"><h4>What To Optimize For</h4><p>Do not just chase individual stats. Winning teams need defensive consistency, a creative midfield, fast wingers, and a dynamic attack that functions as a balanced unit.</p></div><div class="how-to-sec"><h4>Winning</h4><p>After all positions are filled, the game simulates your team\'s campaign in the tournament.</p><p>Your goal is to win 8 straight matches and become the undefeated champion!</p></div></div></div>'
+  },
+  'ES': {
+    sua_selecao: 'TU SELECCIÓN', classificado: 'CLASIFICADO', eliminado: 'ELIMINADO', avancou_de_fase: 'AVANZÓ', simulando: 'Simulando...', gol_scored: 'GOL', gols_scored: 'GOLES', sofreu_goals: 'EN CONTRA',
+    start_title: '¿PUEDES QUEDAR <span style="color: #2b8fe8;">8-0</span>?',
+    start_subtitle: 'Sortee una selección y una copa, elija un jugador para cada posición y descubra si su equipo ideal puede ganar 8-0.',
+    start_play_btn: 'JUGAR',
+    how_to_play: 'CÓMO JOGAR',
+    how_to_desc: '<div class="how-to-columns"><div class="how-to-col"><div class="how-to-sec"><h4>Cómo Jugar</h4><p>Gira para revelar una selección y una Copa del Mundo. Elige un jugador de esa plantilla y colócalo en una posición elegible libre de tu alineación.</p><p>Cada jugador solo se puede usar una vez. Si un jugador no cabe en ninguna posición libre, no estará disponible.</p></div><div class="how-to-sec"><h4>Re-sorteos</h4><p>Tienes re-sorteos limitados durante la ronda. Úsalos cuando la plantilla actual no tenga jugadores que encajen en tu esquema táctico o en los puestos que te faltan llenar.</p></div></div><div class="how-to-col"><div class="how-to-sec"><h4>Qué Optimizar</h4><p>No busques solo las mejores estrellas individuales. Los equipos ganadores necesitan consistencia defensiva, mediocampo creativo, extremos rápidos y un ataque dinámico que funcione de forma equilibrada.</p></div><div class="how-to-sec"><h4>Victoria</h4><p>Una vez completadas todas las posiciones, el juego simula la campaña de tu equipo en el torneo.</p><p>¡Tu objetivo es ganar 8 partidos seguidos y ser el gran campeón invicto!</p></div></div></div>'
+  },
+  'FR': {
+    sua_selecao: 'VOTRE ÉQUIPE', classificado: 'QUALIFIÉ', eliminado: 'ÉLIMINÉ', avancou_de_fase: 'A AVANCÉ', simulando: 'Simulation en cours...', gol_scored: 'BUT', gols_scored: 'BUTS', sofreu_goals: 'CONCÉDÉ',
+    start_title: 'POUVEZ-VOUS ATTEINDRE <span style="color: #2b8fe8;">8-0</span>?',
+    start_subtitle: 'Tirez au sort une équipe et une coupe, sélectionnez un joueur à chaque poste et découvrez si votre équipe peut gagner 8-0.',
+    start_play_btn: 'JOUER',
+    how_to_play: 'COMMENT JOUER',
+    how_to_desc: '<div class="how-to-columns"><div class="how-to-col"><div class="how-to-sec"><h4>Comment Jouer</h4><p>Tirez au sort pour révéler une équipe et une Coupe du Monde. Choisissez un joueur de cet effectif et placez-le dans un poste éligible libre sur votre terrain.</p><p>Chaque joueur ne peut être utilisé qu\'une seule fois. Si un joueur ne peut entrer dans aucun poste libre, il sera indisponible.</p></div><div class="how-to-sec"><h4>Relances</h4><p>Vous disposez de relances limitées par manche. Utilisez-les si l\'effectif tiré n\'a pas de joueurs correspondant à votre schéma tactique ou aux postes restants.</p></div></div><div class="how-to-col"><div class="how-to-sec"><h4>Que Privilégier</h4><p>Ne cherchez pas seulement les meilleures stars individuelles. Les équipes gagnantes ont besoin de régularité défensive, d\'un milieu créatif, d\'ailiers rapides et d\'une attaque dynamique et équilibrée.</p></div><div class="how-to-sec"><h4>Victoire</h4><p>Une fois tous les postes remplis, le jeu simule le parcours de votre équipe dans le tournoi.</p><p>Votre but est de remporter 8 victoires d\'affilée pour devenir le champion invaincu !</p></div></div></div>'
+  },
+  'PL': {
+    sua_selecao: 'TWOJA DRUŻYNA', classificado: 'ZAKWALIFIKOWANY', eliminado: 'WYELIMINOWANY', avancou_de_fase: 'AWANSOWAŁ', simulando: 'Symulacja...', gol_scored: 'GOL', gols_scored: 'GOLE', sofreu_goals: 'STRACONE',
+    start_title: 'CZY OSIĄGNIESZ <span style="color: #2b8fe8;">8-0</span>?',
+    start_subtitle: 'Wylosuj drużynę i puchar, wybierz zawodników na każdą pozycję i sprawdź czy Twoja drużyna wygra 8-0.',
+    start_play_btn: 'GRAJ',
+    how_to_play: 'JAK GRAĆ',
+    how_to_desc: '<div class="how-to-columns"><div class="how-to-col"><div class="how-to-sec"><h4>Jak Grać</h4><p>Wylosuj kraj i Mistrzostwa Świata. Wybierz zawodnika z tego składu i umieść go na wolnej, kwalifikującej się pozycji w swojej taktyce.</p><p>Każdy zawodnik może być użyty tylko raz. Jeśli zawodnik nie pasuje do żadnej wolnej pozycji, będzie niedostępny.</p></div><div class="how-to-sec"><h4>Ponowne Losowania</h4><p>Otrzymujesz ograniczoną liczbę ponownych losowań w rundzie. Użyj ich, gdy wylosowany zespół nie ma graczy pasujących do Twojej taktyki lub brakujących pozycji.</p></div></div><div class="how-to-col"><div class="how-to-sec"><h4>Co Optymalizować</h4><p>Nie wybieraj tylko najgłośniejszych nazwisk. Zwycięskie zespoły potrzebują stabilnej defensywy, kreatywnej pomocy, szybkich skrzydłowych i zbalansowanego ataku działającego jako jedność.</p></div><div class="how-to-sec"><h4>Zwycięstwo</h4><p>Po obsadzeniu wszystkich pozycji, gra symuluje udział Twojej drużyny w turnieju.</p><p>Twoim celem jest wygranie 8 meczów z rzędu i zostane niepokonanym mistrzem!</p></div></div></div>'
+  },
+  'IT': {
+    sua_selecao: 'LA TUA SQUADRA', classificado: 'QUALIFICATO', eliminado: 'ELIMINATO', avancou_de_fase: 'AVANZATO', simulando: 'Simulazione in corso...', gol_scored: 'GOL', gols_scored: 'GOL', sofreu_goals: 'SUBITO',
+    start_title: 'RIESCI A FARE <span style="color: #2b8fe8;">8-0</span>?',
+    start_subtitle: 'Estrai una nazionale e una coppa, scegli un jogador per ruolo e scopri se la tua squadra può vincere 8-0.',
+    start_play_btn: 'GIOCA',
+    how_to_play: 'COME GIOCARE',
+    how_to_desc: '<div class="how-to-columns"><div class="how-to-col"><div class="how-to-sec"><h4>Come Giocare</h4><p>Estrai una nazionale e una Coppa del Mondo. Scegli un giocatore da quella rosa e inseriscilo in un ruolo libero ed idoneo della tua formazione.</p><p>Ogni giocatore può essere usato una sola volta. Se un giocatore non si adatta a nessun ruolo libero, non sarà selezionabile.</p></div><div class="how-to-sec"><h4>Nuovi Giri</h4><p>Hai a disposizione un numero limitato di nuovi giri per round. Usali quando la squadra estratta non ha giocatori adatti alla tua tattica o ai ruoli rimasti scoperti.</p></div></div><div class="how-to-col"><div class="how-to-sec"><h4>Cosa Ottimizzare</h4><p>Non cercare solo i migliori valori individuali. Le squadre vincenti hanno bisogno di solidità difensiva, centrocampo creativo, ali veloci e un attacco bilanciato che funzioni come un unico blocco.</p></div><div class="how-to-sec"><h4>Vittoria</h4><p>Una volta coperti tutti i ruoli, il gioco simula il cammino della tua squadra nel torneo.</p><p>Il tuo obiettivo è vincere 8 partite di fila per laurearti campione imbattuto!</p></div></div></div>'
+  }
 };
 for (const [lang, dict] of Object.entries(extraTranslations)) {
   if (window.i18nTranslations[lang]) {

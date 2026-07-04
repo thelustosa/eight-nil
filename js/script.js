@@ -1079,18 +1079,21 @@ window.simulationSpeed = 1;
 const btnModeSpeed = document.getElementById('btn-mode-speed');
 if (btnModeSpeed) {
   btnModeSpeed.addEventListener('click', () => {
+    const lang = window.currentLang || 'PT';
+    const dict = window.i18nTranslations[lang] || window.i18nTranslations['PT'];
+
     if (window.simulationSpeed === 1) {
       window.simulationSpeed = 2;
       btnModeSpeed.setAttribute('data-i18n', 'velocidade_2x');
-      btnModeSpeed.textContent = window.t('velocidade_2x');
+      btnModeSpeed.textContent = dict['velocidade_2x'] || 'VELOC. 2X';
     } else if (window.simulationSpeed === 2) {
       window.simulationSpeed = 3;
       btnModeSpeed.setAttribute('data-i18n', 'velocidade_3x');
-      btnModeSpeed.textContent = window.t('velocidade_3x');
+      btnModeSpeed.textContent = dict['velocidade_3x'] || 'VELOC. 3X';
     } else {
       window.simulationSpeed = 1;
       btnModeSpeed.setAttribute('data-i18n', 'velocidade_1x');
-      btnModeSpeed.textContent = window.t('velocidade_1x');
+      btnModeSpeed.textContent = dict['velocidade_1x'] || 'VELOC. 1X';
     }
   });
 }
@@ -1190,3 +1193,35 @@ if (langBtn && langDropdown) {
 
 // Initialize on DOM load (or right away since script is at the bottom)
 initLanguage();
+
+// Start Screen Logic
+document.addEventListener('DOMContentLoaded', () => {
+  const btnStartGame = document.getElementById('btn-start-game');
+  const startScreen = document.getElementById('start-screen');
+  const mainApp = document.getElementById('main-app');
+  const headerLogo = document.getElementById('header-logo');
+
+  if (btnStartGame) {
+    btnStartGame.addEventListener('click', () => {
+      startScreen.style.display = 'none';
+      mainApp.style.display = 'grid';
+      headerLogo.style.display = 'flex';
+      
+      const mainHeader = document.getElementById('main-header');
+      if (mainHeader) mainHeader.style.display = 'block';
+    });
+  }
+
+  const btnHowTo = document.getElementById('btn-how-to');
+  const howToContent = document.getElementById('how-to-content');
+  if (btnHowTo) {
+    btnHowTo.addEventListener('click', () => {
+      btnHowTo.classList.toggle('active');
+      if (howToContent.style.display === 'none') {
+        howToContent.style.display = 'block';
+      } else {
+        howToContent.style.display = 'none';
+      }
+    });
+  }
+});
