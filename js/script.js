@@ -437,7 +437,8 @@ function renderDraftedCountries() {
     return;
   }
 
-  let html = '<h3 style="font-size: 11px; margin-bottom: 8px; color: #7a7363; text-transform: uppercase; letter-spacing: 2.42px; font-family: \'Hanken Grotesk\', sans-serif; font-weight: 800;">PAÍSES SELECIONADOS</h3>';
+  const titleTxt = window.i18nTranslations[window.currentLang]?.paises_selecionados || 'PAÍSES SELECIONADOS';
+  let html = `<h3 style="font-size: 11px; margin-bottom: 8px; color: #7a7363; text-transform: uppercase; letter-spacing: 2.42px; font-family: 'Hanken Grotesk', sans-serif; font-weight: 800;" data-i18n="paises_selecionados">${titleTxt}</h3>`;
   html += '<div style="display: flex; flex-wrap: wrap; gap: 8px;">';
 
   countries.forEach(country => {
@@ -1024,6 +1025,7 @@ if (btnNextGame) {
           document.querySelector('.tournament-left-col').appendChild(btnNextGame);
           simulateKnockoutMatch();
         } else {
+          sessionStorage.setItem('skipStartScreen', 'true');
           location.reload();
         }
       }
@@ -1048,9 +1050,11 @@ if (btnNextGame) {
           simulateKnockoutMatch();
         } else {
           // Won the final!
+          sessionStorage.setItem('skipStartScreen', 'true');
           location.reload();
         }
       } else {
+        sessionStorage.setItem('skipStartScreen', 'true');
         location.reload();
       }
     }
@@ -1201,6 +1205,17 @@ document.addEventListener('DOMContentLoaded', () => {
   const mainApp = document.getElementById('main-app');
   const headerLogo = document.getElementById('header-logo');
 
+  if (sessionStorage.getItem('skipStartScreen') === 'true') {
+    startScreen.style.display = 'none';
+    mainApp.style.display = 'grid';
+    headerLogo.style.display = 'flex';
+    
+    const mainHeader = document.getElementById('main-header');
+    if (mainHeader) mainHeader.style.display = 'block';
+    
+    sessionStorage.removeItem('skipStartScreen');
+  }
+
   if (btnStartGame) {
     btnStartGame.addEventListener('click', () => {
       startScreen.style.display = 'none';
@@ -1209,6 +1224,14 @@ document.addEventListener('DOMContentLoaded', () => {
       
       const mainHeader = document.getElementById('main-header');
       if (mainHeader) mainHeader.style.display = 'block';
+    });
+  }
+
+  if (headerLogo) {
+    headerLogo.addEventListener('click', (e) => {
+      e.preventDefault();
+      sessionStorage.setItem('skipStartScreen', 'true');
+      window.location.reload();
     });
   }
 
