@@ -1,6 +1,6 @@
 # 8-0 Draft / Sorteador
 
-Um aplicativo web interativo para sortear seleções e copas, além de permitir o "draft" de jogadores para compor o seu esquadrão ideal com um visual de cartas colecionáveis (basketball cards).
+Um aplicativo web interativo para sortear seleções e copas, além de permitir o "draft" de jogadores para compor o seu esquadrão ideal com um visual de cartas colecionáveis.
 
 **Jogue agora mesmo no seu navegador:**
 https://thelustosa.github.io/eight-nil/

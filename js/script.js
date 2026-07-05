@@ -1018,10 +1018,50 @@ if (btnNextGame) {
           document.getElementById('group-stage-container').style.display = 'none';
           document.getElementById('group-table-container').style.display = 'none';
           const simBtns = document.querySelector('.simulation-mode-buttons');
-          if (simBtns) simBtns.style.display = 'none';
+          
           document.querySelectorAll('.simulation-summary-banner').forEach(el => el.remove());
-          document.getElementById('knockout-stage-container').style.display = 'flex';
+          const knockoutContainer = document.getElementById('knockout-stage-container');
+          knockoutContainer.style.display = 'flex';
+          knockoutContainer.style.flexDirection = 'column';
+          knockoutContainer.style.gap = '12px';
+          
+          if (!document.getElementById('knockout-header')) {
+            const headerObj = document.createElement('div');
+            headerObj.id = 'knockout-header';
+            headerObj.style.display = 'flex';
+            headerObj.style.justifyContent = 'space-between';
+            headerObj.style.alignItems = 'stretch';
+            headerObj.style.gap = '16px';
+            headerObj.style.marginBottom = '12px';
 
+            const box = document.createElement('div');
+            box.style.display = 'flex';
+            box.style.alignItems = 'center';
+            box.style.justifyContent = 'center';
+            box.style.flex = '1';
+            box.style.backgroundColor = '#1e1e1e';
+            box.style.padding = '0 32px';
+            box.style.border = '2px solid #333';
+            box.style.boxShadow = '4px 4px 0px var(--color-text-grey)';
+            box.style.fontFamily = "var(--font-secondary)";
+            box.style.fontWeight = '400';
+            box.style.fontSize = '24px';
+            box.style.color = '#E6E1D6';
+            box.style.letterSpacing = '2px';
+            box.setAttribute('data-i18n', 'mata_mata');
+            box.textContent = window.i18nTranslations[window.currentLang]?.mata_mata || 'MATA-MATA';
+            
+            headerObj.appendChild(box);
+            if (simBtns) {
+               simBtns.style.marginBottom = '0';
+               simBtns.style.display = 'flex';
+               headerObj.appendChild(simBtns);
+            }
+            knockoutContainer.appendChild(headerObj);
+          } else {
+             if (simBtns) simBtns.style.display = 'flex';
+          }
+          
           document.querySelector('.tournament-left-col').appendChild(btnNextGame);
           simulateKnockoutMatch();
         } else {
@@ -1172,7 +1212,7 @@ const langDropdown = document.getElementById('lang-dropdown');
 if (langBtn && langDropdown) {
   langBtn.addEventListener('click', (e) => {
     e.stopPropagation();
-    langDropdown.style.display = langDropdown.style.display === 'none' ? 'block' : 'none';
+    langDropdown.style.display = (langDropdown.style.display === 'block') ? 'none' : 'block';
   });
   
   document.addEventListener('click', (e) => {
@@ -1237,13 +1277,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const btnHowTo = document.getElementById('btn-how-to');
   const howToContent = document.getElementById('how-to-content');
+  const howToIcon = document.getElementById('how-to-icon');
   if (btnHowTo) {
     btnHowTo.addEventListener('click', () => {
       btnHowTo.classList.toggle('active');
-      if (howToContent.style.display === 'none') {
-        howToContent.style.display = 'block';
-      } else {
-        howToContent.style.display = 'none';
+      if (howToContent) {
+        if (howToContent.style.display !== 'block') {
+          howToContent.style.display = 'block';
+          if (howToIcon) howToIcon.style.transform = 'rotate(180deg)';
+        } else {
+          howToContent.style.display = 'none';
+          if (howToIcon) howToIcon.style.transform = 'rotate(0deg)';
+        }
       }
     });
   }

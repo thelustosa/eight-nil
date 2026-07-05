@@ -859,6 +859,9 @@ function animateKnockoutMatch() {
   
   const card = document.createElement('div');
   card.className = 'tournament-match-card active-match';
+  if (state.simulation.phase === 7) {
+    card.classList.add('final-match');
+  }
   
   const header = document.createElement('div');
   header.className = 't-match-header';

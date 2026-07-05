@@ -1270,3 +1270,12 @@ window.i18nTranslations['RU'] = {
   how_to_play: 'КАК ИГРАТЬ?',
   how_to_desc: '<div class="how-to-columns"><div class="how-to-col"><div class="how-to-sec"><h4>Как играть</h4><p>Вращайте, чтобы выбрать страну и Чемпионат мира. Выберите игрока из этого состава и поместите его на свободную подходящую позицию.</p><p>Каждого игрока можно использовать только один раз. Если игрок не подходит ни на одну свободную позицию, он будет недоступен.</p></div><div class="how-to-sec"><h4>Переигровки</h4><p>У вас есть ограниченное количество переигровок в течение раунда. Используйте их, если в текущем составе нет игроков, подходящих вашей тактической схеме или оставшимся позициям.</p></div></div><div class="how-to-col"><div class="how-to-sec"><h4>Что оптимизировать</h4><p>Не гонитесь только за индивидуальной статистикой. Командам-победительницам нужна стабильная защита, креативная полузащита, быстрые вингеры и динамичная атака, работающая как единое целое.</p></div><div class="how-to-sec"><h4>Победа</h4><p>После того, как все позиции будут заполнены, игра симулирует кампанию вашей команды на турнире.</p><p>Ваша цель - выиграть 8 матчей подряд и стать непобежденным чемпионом!</p></div></div></div>'
 };
+
+window.i18nTranslations['PT'].mata_mata = 'MATA-MATA';
+window.i18nTranslations['EN'].mata_mata = 'KNOCKOUT';
+window.i18nTranslations['ES'].mata_mata = 'ELIMINATORIAS';
+window.i18nTranslations['FR'].mata_mata = 'ÉLIMINATION DIRECTE';
+window.i18nTranslations['PL'].mata_mata = 'FAZA PUCHAROWA';
+window.i18nTranslations['IT'].mata_mata = 'FASE A ELIMINAZIONE';
+if(window.i18nTranslations['JA']) window.i18nTranslations['JA'].mata_mata = 'ノックアウト';
+if(window.i18nTranslations['RU']) window.i18nTranslations['RU'].mata_mata = 'ПЛЕЙ-ОФФ';
