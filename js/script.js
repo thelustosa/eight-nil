@@ -212,7 +212,11 @@ styleBtns.forEach(btn => {
   btn.addEventListener('click', () => {
     styleBtns.forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
-    currentStyleName = btn.textContent.trim();
+    const i18nKey = btn.getAttribute('data-i18n');
+    if (i18nKey === 'defensivo') currentStyleName = 'Defensivo';
+    else if (i18nKey === 'equilibrado') currentStyleName = 'Equilibrado';
+    else if (i18nKey === 'ofensivo') currentStyleName = 'Ofensivo';
+    else currentStyleName = btn.textContent.trim();
     updateFormation();
   });
 });

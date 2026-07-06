@@ -2188,4 +2188,17 @@ body.simulation-active .panel-left {
   background-color: #2a2a2a;
   border-top-color: #444;
 }
+.tournament-match-card.final-match .t-goal-row:not(.opponent) .t-goal-min,
+.tournament-match-card.final-match .t-goal-row:not(.opponent) .t-goal-name {
+  color: #aaa;
+}
+.tournament-match-card.final-match .t-goal-row:not(.opponent) .t-goal-dot {
+  background: #aaa;
+}
 
+.tournament-match-card.final-match .t-match-summary,
+.tournament-match-card.final-match .t-summary-label,
+.tournament-match-card.final-match .t-summary-names,
+.tournament-match-card.final-match .t-summary-dot {
+  color: #aaa;
+}

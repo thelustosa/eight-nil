@@ -144,6 +144,15 @@ function playMatch(teamA, teamB, isUserMatch = false, phase = 0) {
       pool = squad;
     }
 
+    const legendsInPool = pool.filter(p => p.lenda || p.isLegend);
+    if (legendsInPool.length > 0) {
+      if (targetType === 'atk' && Math.random() < 0.85) {
+        pool = legendsInPool;
+      } else if (targetType === 'mid' && Math.random() < 0.75) {
+        pool = legendsInPool;
+      }
+    }
+
     pool.sort((a, b) => Number(b.rating) - Number(a.rating));
     const idx = Math.floor(Math.random() * Math.min(pool.length, 3));
     return pool[idx] || pool[0];
