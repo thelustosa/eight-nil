@@ -1277,7 +1277,8 @@ body {
 
 .t-match-header {
   display: grid;
-  grid-template-columns: 80px 1fr auto;
+  grid-template-columns: minmax(80px, max-content) 1fr auto;
+  column-gap: 16px;
   align-items: center;
   padding: 16px 20px;
   cursor: pointer;
