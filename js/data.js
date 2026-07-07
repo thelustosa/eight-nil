@@ -219,7 +219,8 @@ const DATA = [
             "posicao": "Meia-direita",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "3-2-2-3"
       },
       {
         "ano": "1958",
@@ -403,7 +404,8 @@ const DATA = [
             "posicao": "Lateral-esquerdo",
             "rating": "78"
           }
-        ]
+        ],
+        "formacao": "3-2-2-3"
       },
       {
         "ano": "1962",
@@ -609,7 +611,8 @@ const DATA = [
             "posicao": "Meia-esquerda",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1966",
@@ -825,7 +828,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1970",
@@ -1036,7 +1040,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "89"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1974",
@@ -1242,7 +1247,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "91"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1982",
@@ -1443,7 +1449,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1986",
@@ -1650,7 +1657,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "87"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1990",
@@ -1852,7 +1860,8 @@ const DATA = [
             "posicao": "Lateral-esquerdo",
             "rating": "91"
           }
-        ]
+        ],
+        "formacao": "5-3-2"
       },
       {
         "ano": "1994",
@@ -2064,7 +2073,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "87"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1998",
@@ -2270,7 +2280,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2002",
@@ -2484,7 +2495,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2006",
@@ -2693,7 +2705,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2010",
@@ -2916,7 +2929,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "85"
           }
-        ]
+        ],
+        "formacao": "4-2-3-1"
       },
       {
         "ano": "2014",
@@ -3156,7 +3170,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-2-3-1"
       },
       {
         "ano": "2026",
@@ -3381,7 +3396,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-2-3-1"
       }
     ]
   },
@@ -3553,7 +3569,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2014",
@@ -3744,7 +3761,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -3953,7 +3971,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1962",
@@ -4157,7 +4176,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "81"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1966",
@@ -4378,7 +4398,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1974",
@@ -4563,7 +4584,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1978",
@@ -4758,7 +4780,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "96"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1982",
@@ -4973,7 +4996,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1986",
@@ -5171,7 +5195,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "99"
           }
-        ]
+        ],
+        "formacao": "3-5-2"
       },
       {
         "ano": "1990",
@@ -5366,7 +5391,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "92"
           }
-        ]
+        ],
+        "formacao": "3-5-2"
       },
       {
         "ano": "1994",
@@ -5567,7 +5593,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "92"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1998",
@@ -5775,7 +5802,8 @@ const DATA = [
             "posicao": "Lateral-direito",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2002",
@@ -5993,7 +6021,8 @@ const DATA = [
             "posicao": "Lateral-direito",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2006",
@@ -6201,7 +6230,8 @@ const DATA = [
             "posicao": "Ponta-direita",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-3-1-2"
       },
       {
         "ano": "2010",
@@ -6412,7 +6442,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2014",
@@ -6622,7 +6653,8 @@ const DATA = [
             "posicao": "Ponta-direita",
             "rating": "96"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2018",
@@ -6830,7 +6862,8 @@ const DATA = [
             "posicao": "Ponta-esquerda",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2022",
@@ -7065,7 +7098,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "99"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2026",
@@ -7300,7 +7334,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "89"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -7500,7 +7535,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2022",
@@ -7721,7 +7757,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -7930,7 +7967,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1978",
@@ -8119,7 +8157,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "89"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1982",
@@ -8313,7 +8352,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -8512,7 +8552,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "78"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1982",
@@ -8711,7 +8752,8 @@ const DATA = [
             "posicao": "Lateral-direito",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1986",
@@ -8910,7 +8952,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2014",
@@ -9121,7 +9164,8 @@ const DATA = [
             "posicao": "Ponta-esquerda",
             "rating": "87"
           }
-        ]
+        ],
+        "formacao": "4-2-3-1"
       },
       {
         "ano": "2018",
@@ -9339,7 +9383,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "91"
           }
-        ]
+        ],
+        "formacao": "3-4-3"
       },
       {
         "ano": "2026",
@@ -9557,7 +9602,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "89"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -9766,7 +9812,8 @@ const DATA = [
             "posicao": "Lateral-esquerdo",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1954",
@@ -9977,7 +10024,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "3-2-2-3"
       },
       {
         "ano": "1958",
@@ -10215,7 +10263,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "81"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1962",
@@ -10456,7 +10505,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1966",
@@ -10692,7 +10742,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1970",
@@ -10904,7 +10955,8 @@ const DATA = [
             "posicao": "Meia-esquerda",
             "rating": "90"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1974",
@@ -11100,7 +11152,8 @@ const DATA = [
             "posicao": "Ponta-direita",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1978",
@@ -11301,7 +11354,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1982",
@@ -11511,7 +11565,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "90"
           }
-        ]
+        ],
+        "formacao": "4-2-3-1"
       },
       {
         "ano": "1986",
@@ -11731,7 +11786,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1990",
@@ -11941,7 +11997,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "87"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1994",
@@ -12157,7 +12214,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1998",
@@ -12375,7 +12433,8 @@ const DATA = [
             "posicao": "Lateral-direito",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2002",
@@ -12619,7 +12678,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "78"
           }
-        ]
+        ],
+        "formacao": "3-5-2"
       },
       {
         "ano": "2006",
@@ -12841,7 +12901,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "92"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2010",
@@ -13054,7 +13115,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-2-3-1"
       },
       {
         "ano": "2014",
@@ -13280,7 +13342,8 @@ const DATA = [
             "posicao": "Lateral-direito",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-2-3-1"
       },
       {
         "ano": "2018",
@@ -13493,7 +13556,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2022",
@@ -13726,7 +13790,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "91"
           }
-        ]
+        ],
+        "formacao": "4-2-3-1"
       },
       {
         "ano": "2026",
@@ -13955,7 +14020,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "85"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -14154,7 +14220,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1986",
@@ -14337,7 +14404,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1994",
@@ -14526,7 +14594,8 @@ const DATA = [
             "posicao": "Ponta-esquerda",
             "rating": "89"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -14725,7 +14794,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "79"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1990",
@@ -14919,7 +14989,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2002",
@@ -15123,7 +15194,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -15327,7 +15399,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "79"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1962",
@@ -15505,7 +15578,8 @@ const DATA = [
             "posicao": "Lateral-direito",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1974",
@@ -15704,7 +15778,8 @@ const DATA = [
             "posicao": "Ponta-esquerda",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1998",
@@ -15898,7 +15973,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "85"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2010",
@@ -16097,7 +16173,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2014",
@@ -16305,7 +16382,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "87"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -16506,7 +16584,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1994",
@@ -16695,7 +16774,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "92"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1998",
@@ -16894,7 +16974,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2014",
@@ -17094,7 +17175,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "90"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2018",
@@ -17296,7 +17378,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -17492,7 +17575,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2010",
@@ -17714,7 +17798,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2018",
@@ -17907,7 +17992,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2022",
@@ -18128,7 +18214,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "89"
           }
-        ]
+        ],
+        "formacao": "4-2-3-1"
       }
     ]
   },
@@ -18332,7 +18419,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2010",
@@ -18533,7 +18621,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2014",
@@ -18734,7 +18823,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -18936,7 +19026,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "5-4-1"
       },
       {
         "ano": "2022",
@@ -19125,7 +19216,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -19331,7 +19423,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "85"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2018",
@@ -19528,7 +19621,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "95"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2022",
@@ -19722,7 +19816,8 @@ const DATA = [
             "posicao": "Ponta-esquerda",
             "rating": "87"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -19921,7 +20016,8 @@ const DATA = [
             "posicao": "Meia-direita",
             "rating": "93"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1998",
@@ -20123,7 +20219,8 @@ const DATA = [
             "posicao": "Meia-esquerda",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2002",
@@ -20320,7 +20417,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "85"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -20508,7 +20606,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2018",
@@ -20705,7 +20804,8 @@ const DATA = [
             "posicao": "Ponta-direita",
             "rating": "91"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -20917,7 +21017,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2022",
@@ -21132,7 +21233,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2026",
@@ -21353,7 +21455,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "77"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -21552,7 +21655,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1974",
@@ -21748,7 +21852,8 @@ const DATA = [
             "posicao": "Meia-esquerda",
             "rating": "85"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1978",
@@ -21944,7 +22049,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1982",
@@ -22145,7 +22251,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -22364,7 +22471,8 @@ const DATA = [
             "posicao": "Ponta-esquerda",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1962",
@@ -22573,7 +22681,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1966",
@@ -22782,7 +22891,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1978",
@@ -22976,7 +23086,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1986",
@@ -23170,7 +23281,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2002",
@@ -23371,7 +23483,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "89"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2010",
@@ -23603,7 +23716,8 @@ const DATA = [
             "posicao": "Lateral-direito",
             "rating": "89"
           }
-        ]
+        ],
+        "formacao": "4-2-3-1"
       },
       {
         "ano": "2018",
@@ -23804,7 +23918,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "91"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2026",
@@ -24034,7 +24149,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -24206,7 +24322,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "78"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1994",
@@ -24389,7 +24506,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2002",
@@ -24583,7 +24701,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -24792,7 +24911,8 @@ const DATA = [
             "posicao": "Lateral-esquerdo",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1958",
@@ -25001,7 +25121,8 @@ const DATA = [
             "posicao": "Lateral-esquerdo",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1966",
@@ -25187,7 +25308,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1978",
@@ -25386,7 +25508,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "87"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1982",
@@ -25588,7 +25711,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1986",
@@ -25772,7 +25896,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "94"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1998",
@@ -25989,7 +26114,8 @@ const DATA = [
             "posicao": "Ponta-direita",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2002",
@@ -26208,7 +26334,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "90"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2006",
@@ -26424,7 +26551,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "90"
           }
-        ]
+        ],
+        "formacao": "4-2-3-1"
       },
       {
         "ano": "2014",
@@ -26628,7 +26756,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2018",
@@ -26838,7 +26967,8 @@ const DATA = [
             "posicao": "Ponta-direita",
             "rating": "94"
           }
-        ]
+        ],
+        "formacao": "4-2-3-1"
       },
       {
         "ano": "2022",
@@ -27070,7 +27200,8 @@ const DATA = [
             "posicao": "Ponta-esquerda",
             "rating": "94"
           }
-        ]
+        ],
+        "formacao": "4-2-3-1"
       },
       {
         "ano": "2026",
@@ -27297,7 +27428,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "94"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -27493,7 +27625,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2014",
@@ -27690,7 +27823,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -27892,7 +28026,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2014",
@@ -28089,7 +28224,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -28294,7 +28430,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "91"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1978",
@@ -28485,7 +28622,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1990",
@@ -28689,7 +28827,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "92"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1994",
@@ -28897,7 +29036,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "87"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1998",
@@ -29101,7 +29241,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "89"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2006",
@@ -29312,7 +29453,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "85"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2010",
@@ -29526,7 +29668,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2014",
@@ -29736,7 +29879,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "87"
           }
-        ]
+        ],
+        "formacao": "3-5-2"
       },
       {
         "ano": "2026",
@@ -29963,7 +30107,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "89"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -30199,7 +30344,8 @@ const DATA = [
             "posicao": "Lateral-esquerdo",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1958",
@@ -30403,7 +30549,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1962",
@@ -30607,7 +30754,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1966",
@@ -30811,7 +30959,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -31012,7 +31161,8 @@ const DATA = [
             "posicao": "Lateral-direito",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1954",
@@ -31231,7 +31381,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1958",
@@ -31440,7 +31591,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "79"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1962",
@@ -31654,7 +31806,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "81"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1966",
@@ -31893,7 +32046,8 @@ const DATA = [
             "posicao": "Meia-direita",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1970",
@@ -32097,7 +32251,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "85"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1982",
@@ -32296,7 +32451,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1986",
@@ -32490,7 +32646,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "89"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1990",
@@ -32696,7 +32853,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1998",
@@ -32902,7 +33060,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2002",
@@ -33116,7 +33275,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2006",
@@ -33328,7 +33488,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "89"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2010",
@@ -33535,7 +33696,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "87"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2018",
@@ -33728,7 +33890,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "3-5-2"
       },
       {
         "ano": "2026",
@@ -33949,7 +34112,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -34143,7 +34307,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2002",
@@ -34339,7 +34504,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -34553,7 +34719,8 @@ const DATA = [
             "posicao": "Ponta-direita",
             "rating": "81"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       }
     ]
   },
@@ -34757,7 +34924,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1954",
@@ -34946,7 +35114,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1962",
@@ -35155,7 +35324,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "81"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1966",
@@ -35364,7 +35534,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "85"
           }
-        ]
+        ],
+        "formacao": "3-5-2"
       },
       {
         "ano": "1970",
@@ -35568,7 +35739,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "5-3-2"
       },
       {
         "ano": "1974",
@@ -35772,7 +35944,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "90"
           }
-        ]
+        ],
+        "formacao": "5-3-2"
       },
       {
         "ano": "1978",
@@ -35977,7 +36150,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1982",
@@ -36194,7 +36368,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "85"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1986",
@@ -36394,7 +36569,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1990",
@@ -36599,7 +36775,8 @@ const DATA = [
             "posicao": "Lateral-esquerdo",
             "rating": "89"
           }
-        ]
+        ],
+        "formacao": "5-3-2"
       },
       {
         "ano": "1994",
@@ -36806,7 +36983,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "87"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1998",
@@ -37013,7 +37191,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-3-1-2"
       },
       {
         "ano": "2002",
@@ -37248,7 +37427,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2006",
@@ -37486,7 +37666,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-3-1-2"
       }
     ]
   },
@@ -37705,7 +37886,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1954",
@@ -37924,7 +38106,8 @@ const DATA = [
             "posicao": "Meia-direita",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1958",
@@ -38104,7 +38287,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1962",
@@ -38308,7 +38492,8 @@ const DATA = [
             "posicao": "Ponta-esquerda",
             "rating": "79"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1990",
@@ -38491,7 +38676,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1998",
@@ -38674,7 +38860,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -38875,7 +39062,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2010",
@@ -39081,7 +39269,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "78"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2018",
@@ -39278,7 +39467,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-2-3-1"
       },
       {
         "ano": "2022",
@@ -39493,7 +39683,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-2-3-1"
       }
     ]
   },
@@ -39697,7 +39888,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2018",
@@ -39904,7 +40096,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2022",
@@ -40130,7 +40323,8 @@ const DATA = [
             "posicao": "Lateral-direito",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-2-3-1"
       }
     ]
   },
@@ -40329,7 +40523,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1962",
@@ -40523,7 +40718,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "81"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1966",
@@ -40722,7 +40918,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "78"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1970",
@@ -40916,7 +41113,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "77"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1978",
@@ -41105,7 +41303,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1986",
@@ -41294,7 +41493,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1994",
@@ -41488,7 +41688,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "87"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2002",
@@ -41691,7 +41892,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2010",
@@ -41886,7 +42088,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2014",
@@ -42083,7 +42286,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -42281,7 +42485,8 @@ const DATA = [
             "posicao": "Meia-direita",
             "rating": "85"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1998",
@@ -42481,7 +42686,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2002",
@@ -42692,7 +42898,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2014",
@@ -42886,7 +43093,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -43095,7 +43303,8 @@ const DATA = [
             "posicao": "Ponta-esquerda",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       }
     ]
   },
@@ -43283,7 +43492,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1958",
@@ -43472,7 +43682,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1986",
@@ -43666,7 +43877,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1998",
@@ -43860,7 +44072,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2010",
@@ -44051,7 +44264,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -44252,7 +44466,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1978",
@@ -44449,7 +44664,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -44652,7 +44868,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1978",
@@ -44858,7 +45075,8 @@ const DATA = [
             "posicao": "Ponta-direita",
             "rating": "87"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1982",
@@ -45057,7 +45275,8 @@ const DATA = [
             "posicao": "Ponta-direita",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1986",
@@ -45254,7 +45473,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -45455,7 +45675,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "87"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2002",
@@ -45661,7 +45882,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2006",
@@ -45874,7 +46096,8 @@ const DATA = [
             "posicao": "Ponta-direita",
             "rating": "85"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2010",
@@ -46081,7 +46304,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2018",
@@ -46288,7 +46512,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "93"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2022",
@@ -46520,7 +46745,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "2026",
@@ -46750,7 +46976,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "85"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -46949,7 +47176,8 @@ const DATA = [
             "posicao": "Ponta-esquerda",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1990",
@@ -47145,7 +47373,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "87"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1994",
@@ -47343,7 +47572,8 @@ const DATA = [
             "posicao": "Volante",
             "rating": "85"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -47539,7 +47769,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-5-1"
       }
     ]
   },
@@ -47735,7 +47966,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2022",
@@ -47924,7 +48156,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "87"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -48144,7 +48377,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "3-4-3"
       }
     ]
   },
@@ -48345,7 +48579,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1958",
@@ -48564,7 +48799,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1974",
@@ -48758,7 +48994,8 @@ const DATA = [
             "posicao": "Meia-esquerda",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "1994",
@@ -48947,7 +49184,8 @@ const DATA = [
             "posicao": "Ponta-direita",
             "rating": "85"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2006",
@@ -49152,7 +49390,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2018",
@@ -49356,7 +49595,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -49550,7 +49790,8 @@ const DATA = [
             "posicao": "Meia",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1954",
@@ -49739,7 +49980,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "2006",
@@ -49936,7 +50178,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2014",
@@ -50132,7 +50375,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-2-3-1"
       },
       {
         "ano": "2018",
@@ -50328,7 +50572,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-2-3-1"
       }
     ]
   },
@@ -50532,7 +50777,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "78"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1962",
@@ -50741,7 +50987,8 @@ const DATA = [
             "posicao": "Meia-direita",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -50929,7 +51176,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2006",
@@ -51131,7 +51379,8 @@ const DATA = [
             "posicao": "Meio-campista",
             "rating": "88"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -51335,7 +51584,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "80"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "2002",
@@ -51526,7 +51776,8 @@ const DATA = [
             "posicoes_secundarias": []
           }
         ],
-        "lendas": []
+        "lendas": [],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -51730,7 +51981,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "89"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       }
     ]
   },
@@ -51944,7 +52196,8 @@ const DATA = [
             "posicao": "Meia-direita",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1962",
@@ -52158,7 +52411,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "79"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1966",
@@ -52357,7 +52611,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       }
     ]
   },
@@ -52571,7 +52826,8 @@ const DATA = [
             "posicao": "Meia-direita",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1954",
@@ -52780,7 +53036,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "82"
           }
-        ]
+        ],
+        "formacao": "4-2-4"
       },
       {
         "ano": "1970",
@@ -52969,7 +53226,8 @@ const DATA = [
             "posicao": "Goleiro",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1974",
@@ -53166,7 +53424,8 @@ const DATA = [
             "posicao": "Ponta-direita",
             "rating": "84"
           }
-        ]
+        ],
+        "formacao": "4-3-3"
       },
       {
         "ano": "1986",
@@ -53362,7 +53621,8 @@ const DATA = [
             "posicao": "Ponta-direita",
             "rating": "83"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2010",
@@ -53567,7 +53827,8 @@ const DATA = [
             "posicao": "Centroavante",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2014",
@@ -53764,7 +54025,8 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "90"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       },
       {
         "ano": "2018",
@@ -53971,8 +54233,9 @@ const DATA = [
             "posicao": "Zagueiro",
             "rating": "86"
           }
-        ]
+        ],
+        "formacao": "4-4-2"
       }
     ]
   }
-];
+]
